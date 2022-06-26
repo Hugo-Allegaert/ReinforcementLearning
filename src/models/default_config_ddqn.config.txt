@@ -1,0 +1,17 @@
+Config(target_update=4,
+ lr=0.01,
+ lr_min=0.001,
+ lr_decay=50,
+ gamma=0.99,
+ loss='mse',
+ memory_size=40000,
+ batch_size=250,
+ eps_start=1,
+ eps_min=0.01,
+ eps_decay=400,
+ learning_start=200,
+ double_dqn=True)
+---------------------------
+Results after 100 episodes:
+Average timesteps per episode: 11.59
+Average penalties per episode: 0.0
